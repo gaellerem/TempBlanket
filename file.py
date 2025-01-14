@@ -6,29 +6,29 @@ def get_color(temp):
     elif 0 <= temp < 3:
         return '#3C1B4F'
     elif 3 <= temp < 6:
-        return '#5e237f'
-    elif 6 <= temp < 9:
         return '#6D5BAE'
-    elif 9 <= temp < 12:
+    elif 6 <= temp < 9:
         return '#825286'
-    elif 12 <= temp < 15:
+    elif 9 <= temp < 12:
         return '#9F589E'
-    elif 15 <= temp < 18:
+    elif 12 <= temp < 15:
         return '#D5C7E9'
-    elif 18 <= temp < 21:
+    elif 15 <= temp < 18:
         return '#F6CFDF'
-    elif 21 <= temp < 24:
+    elif 18 <= temp < 21:
         return '#B62C81'
-    elif 24 <= temp < 27:
+    elif 21 <= temp < 24:
         return '#AE2958'
-    elif 27 <= temp < 30:
+    elif 24 <= temp < 27:
         return '#F36973'
-    elif 30 <= temp < 33:
+    elif 27 <= temp < 30:
         return '#F74E3C'
-    elif 33 <= temp < 36:
+    elif 30 <= temp < 33:
         return '#E80128'
-    elif 36 <= temp :
+    elif 33 <= temp < 36:
         return '#811530'
+    elif 36 <= temp :
+        return '#632243'
 
 def extract_data(filepath):
     df = pd.read_csv(filepath, sep=';', names=['Date', 'TempMin', 'TempMax'])
