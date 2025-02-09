@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>920</width>
-    <height>440</height>
+    <height>471</height>
    </rect>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -47,10 +47,17 @@
          <x>0</x>
          <y>0</y>
          <width>233</width>
-         <height>4548</height>
+         <height>4571</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="total_count">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
         <item>
          <widget class="QWidget" name="widget_1" native="true">
           <layout class="QHBoxLayout" name="horizontalLayout_1">
@@ -89,7 +96,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_1">
+            <widget class="QSpinBox" name="#332E57_#3C1B4F_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -152,7 +159,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_2">
+            <widget class="QSpinBox" name="#332E57_#6D5BAE_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -215,7 +222,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_3">
+            <widget class="QSpinBox" name="#332E57_#825286_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -278,7 +285,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_4">
+            <widget class="QSpinBox" name="#332E57_#D5C7E9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -341,7 +348,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_5">
+            <widget class="QSpinBox" name="#332E57_#9F589E_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -404,7 +411,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_6">
+            <widget class="QSpinBox" name="#332E57_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -467,7 +474,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_7">
+            <widget class="QSpinBox" name="#3C1B4F_#825286_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -530,7 +537,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_8">
+            <widget class="QSpinBox" name="#3C1B4F_#6D5BAE_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -593,7 +600,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_9">
+            <widget class="QSpinBox" name="#3C1B4F_#9F589E_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -656,7 +663,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_10">
+            <widget class="QSpinBox" name="#3C1B4F_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -719,7 +726,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_11">
+            <widget class="QSpinBox" name="#3C1B4F_#D5C7E9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -782,7 +789,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_12">
+            <widget class="QSpinBox" name="#3C1B4F_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -845,7 +852,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_13">
+            <widget class="QSpinBox" name="#6D5BAE_#9F589E_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -908,7 +915,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_14">
+            <widget class="QSpinBox" name="#6D5BAE_#D5C7E9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -971,7 +978,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_15">
+            <widget class="QSpinBox" name="#6D5BAE_#825286_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1034,7 +1041,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_16">
+            <widget class="QSpinBox" name="#6D5BAE_#6D5BAE_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1097,7 +1104,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_17">
+            <widget class="QSpinBox" name="#6D5BAE_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1160,7 +1167,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_18">
+            <widget class="QSpinBox" name="#6D5BAE_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1223,7 +1230,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_19">
+            <widget class="QSpinBox" name="#6D5BAE_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1286,7 +1293,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_20">
+            <widget class="QSpinBox" name="#825286_#9F589E_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1349,7 +1356,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_21">
+            <widget class="QSpinBox" name="#825286_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1412,7 +1419,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_22">
+            <widget class="QSpinBox" name="#825286_#D5C7E9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1475,7 +1482,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_23">
+            <widget class="QSpinBox" name="#825286_#825286_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1538,7 +1545,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_24">
+            <widget class="QSpinBox" name="#825286_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1601,7 +1608,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_25">
+            <widget class="QSpinBox" name="#825286_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1664,7 +1671,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_26">
+            <widget class="QSpinBox" name="#825286_#AE2958_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1727,7 +1734,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_27">
+            <widget class="QSpinBox" name="#825286_#632243_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1790,7 +1797,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_28">
+            <widget class="QSpinBox" name="#9F589E_#D5C7E9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1853,7 +1860,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_29">
+            <widget class="QSpinBox" name="#9F589E_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1916,7 +1923,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_30">
+            <widget class="QSpinBox" name="#9F589E_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -1979,7 +1986,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_31">
+            <widget class="QSpinBox" name="#9F589E_#AE2958_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2042,7 +2049,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_32">
+            <widget class="QSpinBox" name="#9F589E_#632243_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2105,7 +2112,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_33">
+            <widget class="QSpinBox" name="#9F589E_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2168,7 +2175,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_34">
+            <widget class="QSpinBox" name="#9F589E_#811530_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2231,7 +2238,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_35">
+            <widget class="QSpinBox" name="#B62C81_#F74E3C_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2294,7 +2301,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_36">
+            <widget class="QSpinBox" name="#B62C81_#E80128_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2357,7 +2364,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_37">
+            <widget class="QSpinBox" name="#B62C81_#811530_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2420,7 +2427,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_38">
+            <widget class="QSpinBox" name="#D5C7E9_#AE2958_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2483,7 +2490,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_39">
+            <widget class="QSpinBox" name="#D5C7E9_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2546,7 +2553,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_40">
+            <widget class="QSpinBox" name="#D5C7E9_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2609,7 +2616,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_41">
+            <widget class="QSpinBox" name="#D5C7E9_#632243_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2672,7 +2679,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_42">
+            <widget class="QSpinBox" name="#D5C7E9_#811530_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2735,7 +2742,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_43">
+            <widget class="QSpinBox" name="#D5C7E9_#EFABDD_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2798,7 +2805,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_44">
+            <widget class="QSpinBox" name="#EFABDD_#AE2958_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2861,7 +2868,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_45">
+            <widget class="QSpinBox" name="#EFABDD_#F785C9_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2924,7 +2931,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_46">
+            <widget class="QSpinBox" name="#EFABDD_#632243_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -2987,7 +2994,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_47">
+            <widget class="QSpinBox" name="#EFABDD_#811530_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3050,7 +3057,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_48">
+            <widget class="QSpinBox" name="#EFABDD_#E80128_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3113,7 +3120,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_49">
+            <widget class="QSpinBox" name="#EFABDD_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3176,7 +3183,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_50">
+            <widget class="QSpinBox" name="#EFABDD_#F74E3C_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3239,7 +3246,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_51">
+            <widget class="QSpinBox" name="#F785C9_#B62C81_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3302,7 +3309,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_52">
+            <widget class="QSpinBox" name="#F785C9_#E80128_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3365,7 +3372,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_53">
+            <widget class="QSpinBox" name="#F785C9_#632243_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3428,7 +3435,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_54">
+            <widget class="QSpinBox" name="#F785C9_#AE2958_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3491,7 +3498,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_55">
+            <widget class="QSpinBox" name="#F785C9_#811530_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3554,7 +3561,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox_56">
+            <widget class="QSpinBox" name="#F785C9_#F74E3C_spin">
              <property name="maximumSize">
               <size>
                <width>50</width>
@@ -3588,6 +3595,7 @@
  </widget>
  <resources>
   <include location="../../resource.qrc"/>
+  <include location="resource.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -1,5 +1,6 @@
 import view.resources_rc
-from PySide6.QtWidgets import QMainWindow, QGraphicsScene, QGraphicsEllipseItem, QGraphicsPolygonItem
+import pandas as pd
+from PySide6.QtWidgets import QMainWindow, QGraphicsScene, QGraphicsEllipseItem, QGraphicsPolygonItem, QSpinBox
 from PySide6.QtCore import Qt, QPointF
 from PySide6.QtGui import QPolygonF, QColor, QBrush, QPen
 from view.utilitaires import load_ui, extract_data
@@ -11,11 +12,10 @@ class MainWindow(QMainWindow):
         self.ui = load_ui("main")
         self.setCentralWidget(self.ui)
         self.setWindowTitle("Temperature blanket")
-        self.df = extract_data("datas/data.csv")
         self.ui.graphicsView.setScene(QGraphicsScene())
         self.scene = self.ui.graphicsView.scene()
-        self.draw_hexagons()
         self.setFixedSize(1050, 700)
+        self.load_data()
 
     def draw_hexagons(self, hex_radius=20, cols=22, rows=18):
         # Calculer les décalages des hexagones
@@ -25,15 +25,24 @@ class MainWindow(QMainWindow):
         index = 0
         for y in range(rows):
             for x in range(cols):
-                if index >= len(self.df):
-                    return
-
+                if index >= len(self.df): break
                 x_center = x * offset_x
-                y_center = (rows - 1 - y) * offset_y
+                y_center = y * offset_y
                 if y % 2 == 1:
                     if x == cols - 1:
                         continue
                     x_center += offset_x / 2
+
+                # Marquer le premier jour du mois
+                if self.df["Date"].iloc[index].day == 1:
+
+                    red_circle = QGraphicsEllipseItem(-hex_radius * 1, -hex_radius * 1,
+                                                      hex_radius * 2, hex_radius * 2)
+                    red_circle.setBrush(QBrush(Qt.red))
+                    red_circle.setPen(QPen(Qt.transparent))
+                    red_circle.setOpacity(0.9)
+                    red_circle.setPos(x_center, y_center)
+                    self.scene.addItem(red_circle)
 
                 # Créer un hexagone
                 hexagon = QPolygonF([
@@ -69,14 +78,34 @@ class MainWindow(QMainWindow):
                 min_circle.setPos(x_center, y_center)
                 self.scene.addItem(min_circle)
 
-                # Marquer le premier jour du mois
-                if self.df["Date"].iloc[index].day == 1:
-                    red_circle = QGraphicsEllipseItem(-hex_radius * 0.75, -hex_radius * 0.75,
-                                                      hex_radius * 1.5, hex_radius * 1.5)
-                    red_circle.setBrush(QBrush(Qt.red))
-                    red_circle.setPen(QPen(Qt.transparent))
-                    red_circle.setPos(x_center, y_center)
-                    red_circle.setOpacity(0.5)  # Rendre le cercle rouge semi-transparent
-                    self.scene.addItem(red_circle)
-
                 index += 1
+
+    def load_data(self):
+        self.df = extract_data("datas/temperatures.csv")
+        self.color_pairs = pd.read_csv('datas/color_pairs.csv', sep=';', header=0)
+
+        self.color_pairs['SpinBoxName'] = self.color_pairs.apply(
+            lambda row: f'{row["ColorMin"]}_{row["ColorMax"]}_spin', axis=1
+        )
+
+        self.scene.clear()
+        self.draw_hexagons()
+
+        # Remplir les QSpinBox avec les données
+        for index, row in self.color_pairs.iterrows():
+            spin = self.ui.findChild(QSpinBox, row['SpinBoxName'])
+            if spin:
+                spin.setValue(row["Made"])
+
+        total_made = self.color_pairs["Made"].sum()
+        total_needed = self.color_pairs["Count"].sum()
+        self.ui.total_count.setText(f"{total_made}/{total_needed}")
+
+    def closeEvent(self, event):
+        for index, row in self.color_pairs.iterrows():
+            spin = self.ui.findChild(QSpinBox, row['SpinBoxName'])
+            if spin:
+                self.color_pairs.loc[index,"Made"] = spin.value()
+        del self.color_pairs['SpinBoxName']
+        self.color_pairs.to_csv('datas/color_pairs.csv', sep=';', index=False)
+        event.accept()

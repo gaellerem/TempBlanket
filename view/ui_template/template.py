@@ -48,7 +48,7 @@ def make_ui():
                     </widget>
                 </item>
                 <item>
-                    <widget class="QSpinBox" name="spinBox_{i}">
+                    <widget class="QSpinBox" name="{line[1]}_{line[2]}_spin">
                     <property name="maximumSize">
                     <size>
                     <width>50</width>
@@ -75,3 +75,5 @@ def make_ui():
             </item>"""
     with open('view/ui/main.ui', 'w', encoding="utf-8") as f:
         f.write(template.substitute(spinboxes=spinboxes))
+
+make_ui()
