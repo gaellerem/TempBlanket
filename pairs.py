@@ -10,22 +10,24 @@ def get_color_pairs(df):
     # Compter les occurrences de chaque duo
     pair_counts = Counter(color_pairs)
 
+    # Trier les paires par couleur minimale
+    sorted_pairs = dict(sorted(pair_counts.items(), key=lambda x: x[0][0]))
+
     # Exporter les données en csv et en png
-    export_color_pairs_to_csv(pair_counts, "color_pairs.csv")
+    export_color_pairs_to_csv(sorted_pairs, "color_pairs.csv")
     for pair in pair_counts.keys():
         export_color_pairs_to_png(pair[1], pair[0])
-    return pair_counts
 
 def export_color_pairs_to_csv(pair_counts, output_filepath):
     # Convertir le dictionnaire en DataFrame
     df_color_pairs = pd.DataFrame(pair_counts.items(), columns=["ColorMin_ColorMax", "Count"])
-    
+
     # Séparer les couleurs en deux colonnes
     df_color_pairs[['ColorMin', 'ColorMax']] = df_color_pairs['ColorMin_ColorMax'].apply(lambda x: pd.Series(x))
-    
+
     # Supprimer la colonne combinée
     df_color_pairs = df_color_pairs.drop(columns=["ColorMin_ColorMax"])
-    
+
     # Sauvegarder en CSV
     df_color_pairs.to_csv(output_filepath, index=False, sep=';')
     print(f"Fichier exporté : {output_filepath}")
