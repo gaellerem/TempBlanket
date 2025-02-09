@@ -25,7 +25,7 @@ def draw_hexagons(cols, rows, hex_radius, df):
             ax.add_artist(circle)
             circle = plt.Circle((x_center, y_center), 0.3, color=df["ColorMin"].iloc[index], fill=True)
             ax.add_artist(circle)
-            
+
             if df["Date"].iloc[index].day == 1:
                 circle = plt.Circle((x_center, y_center), 0.75, color="r", fill=False)
                 ax.add_artist(circle)

@@ -14,7 +14,7 @@ def get_color(temp):
     elif 12 <= temp < 15:
         return '#D5C7E9'
     elif 15 <= temp < 18:
-        return '#F0B2CB'
+        return '#EFABDD'
     elif 18 <= temp < 21:
         return '#F785C9'
     elif 21 <= temp < 24:
