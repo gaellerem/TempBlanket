@@ -1,6 +1,6 @@
 import view.resources_rc
 import pandas as pd
-from PySide6.QtWidgets import QMainWindow, QGraphicsScene, QGraphicsEllipseItem, QGraphicsPolygonItem, QSpinBox
+from PySide6.QtWidgets import QMainWindow, QGraphicsScene, QGraphicsEllipseItem, QGraphicsPolygonItem, QSpinBox, QMessageBox
 from PySide6.QtCore import Qt, QPointF
 from PySide6.QtGui import QPolygonF, QColor, QBrush, QPen
 from view.utilitaires import load_ui, extract_data
@@ -102,10 +102,14 @@ class MainWindow(QMainWindow):
         self.ui.total_count.setText(f"{total_made}/{total_needed}")
 
     def closeEvent(self, event):
-        for index, row in self.color_pairs.iterrows():
-            spin = self.ui.findChild(QSpinBox, row['SpinBoxName'])
-            if spin:
-                self.color_pairs.loc[index,"Made"] = spin.value()
-        del self.color_pairs['SpinBoxName']
-        self.color_pairs.to_csv('datas/color_pairs.csv', sep=';', index=False)
+        reply = QMessageBox.question(self, "Quit", "Would you like to save?",
+                                 QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            for index, row in self.color_pairs.iterrows():
+                spin = self.ui.findChild(QSpinBox, row['SpinBoxName'])
+                if spin:
+                    self.color_pairs.loc[index,"Made"] = spin.value()
+            del self.color_pairs['SpinBoxName']
+            self.color_pairs.to_csv('datas/color_pairs.csv', sep=';', index=False)
+
         event.accept()
