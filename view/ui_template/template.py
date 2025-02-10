@@ -11,7 +11,7 @@ def make_ui():
             line = line.strip().split(';')
             spinboxes += f"""
             <item>
-            <widget class="QWidget" name="widget_{i}" native="true">
+            <widget class="QWidget" name="{line[1]}_{line[2]}" native="true">
                 <layout class="QHBoxLayout" name="horizontalLayout_{i}">
                     <property name="leftMargin">
                         <number>0</number>
