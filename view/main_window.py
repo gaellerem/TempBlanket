@@ -19,6 +19,7 @@ class MainWindow(QMainWindow):
 
     def draw_hexagons(self, hex_radius=25, cols=22, rows=18):
         # Calculer les décalages des hexagones
+        self.scene.clear()
         offset_x = hex_radius * (3 ** 0.5)
         offset_y = hex_radius * 1.5
 
@@ -102,7 +103,6 @@ class MainWindow(QMainWindow):
             lambda row: f'{row["ColorMin"]}_{row["ColorMax"]}_spin', axis=1
         )
 
-        self.scene.clear()
         self.draw_hexagons()
 
         self.pairs_done = 0
@@ -125,23 +125,37 @@ class MainWindow(QMainWindow):
         index = sender.property("index")  # Récupère l'index directement
 
         if index is not None:
-            self.color_pairs.at[index, "Made"] = sender.value()
+            new_value = sender.value()
+            old_value = self.color_pairs.at[index, "Made"]
+
+            if new_value == old_value:  # Pas de changement réel
+                return
+
+            self.color_pairs.at[index, "Made"] = new_value
 
             # Récupérer les couleurs associées
             color_min = self.color_pairs.at[index, "ColorMin"]
             color_max = self.color_pairs.at[index, "ColorMax"]
 
-            # Trouver la première ligne dans self.df qui correspond et où Made est False
-            mask = (self.df["ColorMin"] == color_min) & (self.df["ColorMax"] == color_max) & (~self.df["Made"])
-            first_index = self.df.index[mask].min()  # Récupère le premier index correspondant
+            if new_value > old_value:  # Incrémentation : Marquer une nouvelle case "Made"
+                mask = (self.df["ColorMin"] == color_min) & (self.df["ColorMax"] == color_max) & (~self.df["Made"])
+                first_index = self.df.index[mask].min()  # Premier index non marqué
 
-            if not pd.isna(first_index):  # Vérifie si un index a été trouvé
-                self.df.at[first_index, "Made"] = True
+                if not pd.isna(first_index):
+                    self.df.at[first_index, "Made"] = True
 
-            # Vérifier si la paire est complète et cacher le widget
-            if sender.value() == self.color_pairs.at[index, "Count"]:
+            else:  # Décrémentation : Trouver la dernière occurrence mise à True et l'annuler
+                mask = (self.df["ColorMin"] == color_min) & (self.df["ColorMax"] == color_max) & (self.df["Made"])
+                last_index = self.df.index[mask].max()  # Dernière occurrence marquée
+
+                if not pd.isna(last_index):
+                    self.df.at[last_index, "Made"] = False
+
+            # Vérifier si la paire est terminée ou non
+            if new_value == self.color_pairs.at[index, "Count"]:
                 self.pairs_done += 1
                 getattr(self.ui, sender.objectName().replace('_spin', '')).hide()
+
 
         self.display_total_count()
         self.draw_hexagons()
@@ -155,5 +169,6 @@ class MainWindow(QMainWindow):
                                  QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply == QMessageBox.Yes:
             self.color_pairs.drop(columns=["SpinBoxName"]).to_csv('datas/color_pairs.csv', sep=';', index=False)
+            self.df.to_csv('datas/data.csv', sep=';', index=False)
 
         event.accept()
