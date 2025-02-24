@@ -109,6 +109,9 @@
                     <property name="maximum">
                     <number>5</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -171,6 +174,9 @@
                     </property>
                     <property name="maximum">
                     <number>6</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -235,6 +241,9 @@
                     <property name="maximum">
                     <number>8</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -297,6 +306,9 @@
                     </property>
                     <property name="maximum">
                     <number>5</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -361,6 +373,9 @@
                     <property name="maximum">
                     <number>3</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -423,6 +438,9 @@
                     </property>
                     <property name="maximum">
                     <number>1</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -487,6 +505,9 @@
                     <property name="maximum">
                     <number>10</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -549,6 +570,9 @@
                     </property>
                     <property name="maximum">
                     <number>11</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -613,6 +637,9 @@
                     <property name="maximum">
                     <number>11</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -675,6 +702,9 @@
                     </property>
                     <property name="maximum">
                     <number>7</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -739,6 +769,9 @@
                     <property name="maximum">
                     <number>10</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -801,6 +834,9 @@
                     </property>
                     <property name="maximum">
                     <number>1</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -865,6 +901,9 @@
                     <property name="maximum">
                     <number>8</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -927,6 +966,9 @@
                     </property>
                     <property name="maximum">
                     <number>16</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -991,6 +1033,9 @@
                     <property name="maximum">
                     <number>4</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1053,6 +1098,9 @@
                     </property>
                     <property name="maximum">
                     <number>2</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1117,6 +1165,9 @@
                     <property name="maximum">
                     <number>7</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1179,6 +1230,9 @@
                     </property>
                     <property name="maximum">
                     <number>5</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1243,6 +1297,9 @@
                     <property name="maximum">
                     <number>1</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1305,6 +1362,9 @@
                     </property>
                     <property name="maximum">
                     <number>4</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1369,6 +1429,9 @@
                     <property name="maximum">
                     <number>12</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1431,6 +1494,9 @@
                     </property>
                     <property name="maximum">
                     <number>13</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1495,6 +1561,9 @@
                     <property name="maximum">
                     <number>2</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1557,6 +1626,9 @@
                     </property>
                     <property name="maximum">
                     <number>13</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1621,6 +1693,9 @@
                     <property name="maximum">
                     <number>7</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1683,6 +1758,9 @@
                     </property>
                     <property name="maximum">
                     <number>3</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1747,6 +1825,9 @@
                     <property name="maximum">
                     <number>1</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1809,6 +1890,9 @@
                     </property>
                     <property name="maximum">
                     <number>5</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1873,6 +1957,9 @@
                     <property name="maximum">
                     <number>8</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -1935,6 +2022,9 @@
                     </property>
                     <property name="maximum">
                     <number>11</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -1999,6 +2089,9 @@
                     <property name="maximum">
                     <number>11</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2061,6 +2154,9 @@
                     </property>
                     <property name="maximum">
                     <number>4</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2125,6 +2221,9 @@
                     <property name="maximum">
                     <number>13</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2187,6 +2286,9 @@
                     </property>
                     <property name="maximum">
                     <number>4</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2251,6 +2353,9 @@
                     <property name="maximum">
                     <number>2</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2313,6 +2418,9 @@
                     </property>
                     <property name="maximum">
                     <number>2</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2377,6 +2485,9 @@
                     <property name="maximum">
                     <number>1</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2439,6 +2550,9 @@
                     </property>
                     <property name="maximum">
                     <number>11</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2503,6 +2617,9 @@
                     <property name="maximum">
                     <number>15</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2565,6 +2682,9 @@
                     </property>
                     <property name="maximum">
                     <number>12</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2629,6 +2749,9 @@
                     <property name="maximum">
                     <number>5</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2691,6 +2814,9 @@
                     </property>
                     <property name="maximum">
                     <number>5</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2755,6 +2881,9 @@
                     <property name="maximum">
                     <number>3</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2817,6 +2946,9 @@
                     </property>
                     <property name="maximum">
                     <number>9</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -2881,6 +3013,9 @@
                     <property name="maximum">
                     <number>3</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -2943,6 +3078,9 @@
                     </property>
                     <property name="maximum">
                     <number>5</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -3007,6 +3145,9 @@
                     <property name="maximum">
                     <number>9</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -3069,6 +3210,9 @@
                     </property>
                     <property name="maximum">
                     <number>7</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -3133,6 +3277,9 @@
                     <property name="maximum">
                     <number>8</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -3195,6 +3342,9 @@
                     </property>
                     <property name="maximum">
                     <number>1</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -3259,6 +3409,9 @@
                     <property name="maximum">
                     <number>3</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -3321,6 +3474,9 @@
                     </property>
                     <property name="maximum">
                     <number>12</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -3385,6 +3541,9 @@
                     <property name="maximum">
                     <number>9</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -3447,6 +3606,9 @@
                     </property>
                     <property name="maximum">
                     <number>2</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>
@@ -3511,6 +3673,9 @@
                     <property name="maximum">
                     <number>6</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
@@ -3573,6 +3738,9 @@
                     </property>
                     <property name="maximum">
                     <number>4</number>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
                     </property>
                     </widget>
                 </item>

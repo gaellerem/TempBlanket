@@ -61,6 +61,9 @@ def make_ui():
                     <property name="maximum">
                     <number>{int(line[0])}</number>
                     </property>
+                    <property name="focusPolicy">
+                        <enum>Qt::StrongFocus</enum>
+                    </property>
                     </widget>
                 </item>
                 <item>
