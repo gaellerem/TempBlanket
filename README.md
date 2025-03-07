@@ -24,5 +24,6 @@ Le fichier .qrc liste toutes ces ressources, il est compilé en lançant la comm
     ```
     pyside6-rcc resources.qrc -o view\resources_rc.py
     ```
+
 Ajoutez ```import view.resources_rc``` dans tout fichier ayant besoin d'au moins une de ces ressources.
 
