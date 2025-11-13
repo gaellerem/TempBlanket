@@ -82,7 +82,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#3C1B4F</string>
+                            <string>611_840</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -148,7 +148,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#6D5BAE</string>
+                            <string>611_884</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -214,7 +214,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#825286</string>
+                            <string>611_701</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -280,7 +280,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#D5C7E9</string>
+                            <string>611_959</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -346,7 +346,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#9F589E</string>
+                            <string>611_669</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -412,7 +412,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#332E57_#EFABDD</string>
+                            <string>611_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -478,7 +478,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#825286</string>
+                            <string>840_701</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -544,7 +544,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#6D5BAE</string>
+                            <string>840_884</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -610,7 +610,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#9F589E</string>
+                            <string>840_669</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -676,7 +676,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#EFABDD</string>
+                            <string>840_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -742,7 +742,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#D5C7E9</string>
+                            <string>840_959</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -808,7 +808,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#3C1B4F_#F785C9</string>
+                            <string>840_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -874,7 +874,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#9F589E</string>
+                            <string>884_669</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -940,7 +940,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#D5C7E9</string>
+                            <string>884_959</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1006,7 +1006,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#825286</string>
+                            <string>884_701</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1072,7 +1072,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#6D5BAE</string>
+                            <string>884_884</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1138,7 +1138,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#EFABDD</string>
+                            <string>884_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1204,7 +1204,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#F785C9</string>
+                            <string>884_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1270,7 +1270,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#6D5BAE_#B62C81</string>
+                            <string>884_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1336,7 +1336,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#9F589E</string>
+                            <string>701_669</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1402,7 +1402,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#EFABDD</string>
+                            <string>701_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1468,7 +1468,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#D5C7E9</string>
+                            <string>701_959</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1534,7 +1534,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#825286</string>
+                            <string>701_701</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1600,7 +1600,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#F785C9</string>
+                            <string>701_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1666,7 +1666,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#B62C81</string>
+                            <string>701_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1732,7 +1732,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#AE2958</string>
+                            <string>701_689</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1798,7 +1798,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#825286_#632243</string>
+                            <string>701_679</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1864,7 +1864,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#D5C7E9</string>
+                            <string>669_959</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1930,7 +1930,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#EFABDD</string>
+                            <string>669_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -1996,7 +1996,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#F785C9</string>
+                            <string>669_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2062,7 +2062,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#AE2958</string>
+                            <string>669_689</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2128,7 +2128,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#632243</string>
+                            <string>669_679</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2194,7 +2194,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#B62C81</string>
+                            <string>669_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2260,7 +2260,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#9F589E_#811530</string>
+                            <string>669_841</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2326,7 +2326,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#B62C81_#F74E3C</string>
+                            <string>984_728</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2392,7 +2392,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#B62C81_#E80128</string>
+                            <string>984_977</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2458,7 +2458,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#B62C81_#811530</string>
+                            <string>984_841</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2524,7 +2524,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#AE2958</string>
+                            <string>959_689</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2590,7 +2590,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#F785C9</string>
+                            <string>959_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2656,7 +2656,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#B62C81</string>
+                            <string>959_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2722,7 +2722,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#632243</string>
+                            <string>959_679</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2788,7 +2788,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#811530</string>
+                            <string>959_841</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2854,7 +2854,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#D5C7E9_#EFABDD</string>
+                            <string>959_958</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2920,7 +2920,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#AE2958</string>
+                            <string>958_689</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -2986,7 +2986,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#F785C9</string>
+                            <string>958_992</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3052,7 +3052,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#632243</string>
+                            <string>958_679</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3118,7 +3118,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#811530</string>
+                            <string>958_841</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3184,7 +3184,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#E80128</string>
+                            <string>958_977</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3250,7 +3250,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#B62C81</string>
+                            <string>958_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3316,7 +3316,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#EFABDD_#F74E3C</string>
+                            <string>958_728</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3382,7 +3382,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#B62C81</string>
+                            <string>992_984</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3448,7 +3448,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#E80128</string>
+                            <string>992_977</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3514,7 +3514,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#632243</string>
+                            <string>992_679</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3580,7 +3580,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#AE2958</string>
+                            <string>992_689</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3646,7 +3646,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#811530</string>
+                            <string>992_841</string>
                         </property>
                         <property name="text">
                             <string/>
@@ -3712,7 +3712,7 @@
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>#F785C9_#F74E3C</string>
+                            <string>992_728</string>
                         </property>
                         <property name="text">
                             <string/>

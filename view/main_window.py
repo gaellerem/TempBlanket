@@ -93,7 +93,7 @@ class MainWindow(QMainWindow):
 
     def load_data(self):
         # Charger les données
-        self.df = pd.read_csv("datas/data.csv", sep=';', names=['Date', 'TempMin', 'TempMax', 'ColorMin', 'ColorMax', 'Made'], skiprows=1)
+        self.df = pd.read_csv("datas/data.csv", sep=';')
         self.df['Date'] = pd.to_datetime(self.df["Date"], format='%Y-%m-%d')
         self.color_pairs = pd.read_csv('datas/color_pairs.csv', sep=';', header=0)
         self.total_needed = self.color_pairs["Count"].sum()

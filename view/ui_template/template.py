@@ -34,7 +34,7 @@ def make_ui():
                             </size>
                         </property>
                         <property name="toolTip">
-                            <string>{line[1]}_{line[2]}</string>
+                            <string>{line[3]}_{line[4]}</string>
                         </property>
                         <property name="text">
                             <string/>
