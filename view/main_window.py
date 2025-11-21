@@ -162,7 +162,8 @@ class MainWindow(QMainWindow):
 
     def display_total_count(self):
         total_made = self.color_pairs["Made"].sum()
-        self.ui.total_count.setText(f"Total : {total_made}/{self.total_needed}\nPaires terminées: {self.pairs_done}")
+        percantage = (total_made / self.total_needed) * 100
+        self.ui.total_count.setText(f"Total : {total_made}/{self.total_needed}\nPaires terminées: {self.pairs_done}\nProgression: {percantage:.2f}%")
 
     def closeEvent(self, event):
         reply = QMessageBox.question(self, "Quit", "Would you like to save?",
