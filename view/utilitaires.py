@@ -12,18 +12,18 @@ def get_color(temp):
     elif 3 <= temp < 6:
         return '#6D5BAE', 884
     elif 6 <= temp < 9:
-        return '#825286', 701
+        return '#825286', 701 # j'ai pas
     elif 9 <= temp < 12:
-        return '#9F589E', 669
-    elif 12 <= temp < 15:
+        return '#9F589E', 669 # j'ai pas
+    elif 12 <= temp < 15: 
         return '#D5C7E9', 959
     elif 15 <= temp < 18:
         return '#EFABDD', 958
     elif 18 <= temp < 21:
-        return '#F785C9', 992
+        return '#F785C9', 992 # j'ai pas
     elif 21 <= temp < 24:
-        return '#B62C81', 984
-    elif 24 <= temp < 27:
+        return '#B62C81', 984 # j'ai pas
+    elif 24 <= temp < 27: 
         return '#AE2958', 689
     elif 27 <= temp < 30:
         return '#632243', 679
